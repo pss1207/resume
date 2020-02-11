@@ -1,0 +1,240 @@
+%-------------------------
+% Resume
+% Author : Sangshik Park
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://www.linkedin.com/in/sangshik-park-b14774a9/}{\Large Sangshik Park}} & Visa Status: US Permanent Resident\\
+  \href{https://www.linkedin.com/in/sangshik-park-b14774a9/}{https://www.linkedin.com/in/sangshik-park-b14774a9/} & Email: \href{mailto:isaac12.park@gmail.com}{isaac12.park@gmail.com} \\ 
+  & Mobile: +1-617-515-9675
+\end{tabular*}
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Beddr}{Mountain View, CA}
+      {Data Scientist}{May 2019 - Present}
+      \resumeItemListStart
+        \resumeItem{Wear-time Detection}
+          {Designed a neural network model to classify the device is on the tissue or not.}
+        \resumeItem{Sleep/Wake Classification}
+        {Designed an actigraphy-based sleep state classification model.}
+        \resumeItem{SpO2}
+          {Improved with weighted average algorithm using signal quality index.}
+        \resumeItem{Heart Rate}
+          {Improved heart rate accuracy by removing motion artifact using adaptive filter.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Nulogix Health}{Boston, MA}
+      {Machine Learning Engineer}{August 2018 - May 2019}
+      \resumeItemListStart
+        \resumeItem{Medical Billing Prediction}
+          {Developed an AI-based medical billing model which predicts amount of deductible, copay, and coinsurance.}
+        \resumeItem{Anomaly Detection for Chest X-ray}
+          {Created a feature extraction model using convolutional autoencoder. Differentiate abnormal X-ray images using t-SNE.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Artificial Intelligence Research Institute (AIRI)}{Gyeonggi, Korea}
+      {Research Engineer}{January 2018 - July 2018}
+      \resumeItemListStart
+        \resumeItem{Image Harmonization}
+          {Developed image harmonization model using U-Net architecture.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Samsung Electronics}{Gyeonggi, Korea}
+      {Senior Algorithm Engineer}{November 2014 - December 2017}
+      \resumeItemListStart
+        \resumeItem{Body Composition Analysis}
+          {Designed body fat and skeletal muscle mass regression model using bioelectrical impedance. Integrated on TomTom Touch.}
+        \resumeItem{Sleep Stage Classification}
+          {Designed combined CNN and LSTM model with ECG RR interval and peak amplitude.}
+        \resumeItem{Motion Artifact Removal for Photoplethysmography}
+          {Developed PPG motion artifact removal algorithm using singular spectrum analysis.}
+        \resumeItem{Heart Rate and Heart Rate Variability}
+          {Developed ECG peak detection algorithm to estimate heart rate and heart rate variability. Integrated on Samsung's ECG S-Patch.}
+      \resumeItemListEnd
+
+      \resumeSubheading
+      {LG Electronics}{Seoul, Korea}
+      {Research Engineer}{July 2012 - July 2014}
+      \resumeItemListStart
+        \resumeItem{Ultrasound Software Beamforming}
+          {Applied software-based plane wave beamforming algorithm for ultrasound device.}
+        \resumeItem{Optical Coherence Tomography for Dermatology}
+          {Developed structural changes detection algorithm in skin aging - collagen, dermal density, and wrinkle.}
+      \resumeItemListEnd
+
+      \resumeSubheading
+      {Samsung Medison}{Seoul, Korea}
+      {Associate Research Engineer}{June 2007 - December 2010}
+      \resumeItemListStart
+        \resumeItem{ElastoScan - Freehand Elastography}
+          {Created real-time displacement and strain estimation algorithm for freehand ultrasound elastography. Developed noise removal algorithms: adaptive persistence and axial dropout correction. }
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Seoul National University}{Korea}
+      {Master of Science in Electrical Engineering and Computer Science}{2005 -- 2007}
+    \resumeSubheading
+      {Kyunghee University}{Korea}
+      {Bachelor of Engineering in Electronics;  GPA: 4.021/4.3}{2001 -- 2005}
+  \resumeSubHeadingListEnd
+
+
+%--------SKILLS------------
+\section{Skills}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Data Science}{}
+      {Python, Pandas, Numpy, Scikit-learn, SciPy, Tensorflow, Pytorch, TensorRT}{}
+    \resumeSubheading
+      {Others}{}
+      {MATLAB, C, R, Git, SQL, AWS}{}
+  \resumeSubHeadingListEnd
+
+%--------HONORS AND AWARDS------------
+\section{Honors and Awards}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{2002}{ Korea Research Foundation Scholarship - Full Scholarship}
+    }
+    \item{
+      \textbf{2003}{ Korea Research Foundation Scholarship - Full Scholarship}
+    }
+    \item{
+      \textbf{2004}{ Korea Research Foundation Scholarship - Full Scholarship}
+    }
+    \item{
+      \textbf{2005}{ Award for Excellent Records (GPA: 4.021/4.3)}
+    }
+    \item{
+      \textbf{2005}{ Seoul National University Scholarship}
+    }
+    \item{
+      \textbf{2006}{ Samsung Medison Scholarship}
+    }
+
+  \resumeSubHeadingListEnd
+
+  %--------PATENTS------------
+\section{Patents}
+\resumeSubHeadingListStart
+  \item{
+    \textbf{US 20180333075}{ Respiratory Rate Measuring Method and Apparatus, and Wearable Device}
+  }
+  \item{
+    \textbf{US 20180359112}{ Home Device Control Device and Operation Method Thereof}
+  }
+  \item{
+    \textbf{US 20180228432}{ Method of Providing Service based on Biometric Information and Wearable Electronic Device}
+  }
+  \item{
+    \textbf{US 8337406 / EP 2189116}{ Adaptive Persistence Processing of Elastic Images}
+  }
+  \item{
+    \textbf{US 8503714}{ Dropout Correction in Ultrasound Strain Imaging}
+  }
+  \item{
+    \textbf{US 9125618}{ Providing an Elastic Image in an Ultrasound System}
+  }
+  \item{
+    \textbf{US 8834374 / EP 2289420}{ Setting an Optimal Image Parameter in an Ultrasound System}
+  }
+  \item{
+    \textbf{US 9289190}{ Ultrasound Strain Imaging via Pixel Frame and Window Correlation}
+  }
+
+\resumeSubHeadingListEnd
+
+  %--------PUBLICATIONS------------
+  \section{Publications}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{}{Speckle Reduction in Optical Coherence Tomography Images via Dynamic Infinite-Impulse-Response Filtering, J Lee, SS Park, JH Chung, SPIE, 2014}
+    }
+    
+  
+  \resumeSubHeadingListEnd
+%-------------------------------------------
+\end{document}
