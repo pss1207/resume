@@ -84,75 +84,72 @@
 \section{Experience}
   \resumeSubHeadingListStart
     \resumeSubheading
-    {Imperative Care}{Campbell, CA}
-    {Principal Data Scientist}{March 2020 - }
+    {Rockley Photonics}{Irvine, CA}
+    {Senior Staff Algorithm Engineer}{February 2022 - }
     \resumeItemListStart
-        \resumeItem{Stroke Detection}
-          {Bio Signal Processing for Stroke Detection}
+        \resumeItem{Blood Pressure}
+          {Developed a blood pressure estimation algorithm using speckleplethysmography (SPG) signal.}
+      \resumeItemListEnd
+    \resumeSubheading
+    {Imperative Care}{Campbell, CA}
+    {Principal Data Scientist}{March 2020 - February 2022}
+    \resumeItemListStart
+        \resumeItem{Anomaly Detection for Stroke Onset}
+          {Developed a autoencoder-based anomaly detection algorithm using heart rate variability features to visualize stroke onset.}
+        \resumeItem{Vasodilation}
+          {Developed a PPG-based vasodilation detection algorithm using pulse wave analysis to improve stroke detection accuracy.}
+        \resumeItem{Respiratory Rate}
+          {Developed a PPG-based respiratory rate algorithm using particle filter and autoregressive method that ourperforms traditional respiratory rate estimation methods.}
       \resumeItemListEnd
 
-    \resumeSubheading
-      {Beddr}{Mountain View, CA}
-      {Data Scientist}{May 2019 - February 2020}
+    \resumeSubheading{Beddr}{Mountain View, CA}{Data Scientist}{May 2019 - February 2020}
       \resumeItemListStart
-        \resumeItem{Wear-time Detection}
-          {Designed a neural network model to classify the device is on the tissue or not.}
-        \resumeItem{Sleep/Wake Classification}
-        {Designed an actigraphy-based sleep state classification model.}
-        \resumeItem{SpO2}
-          {Improved with weighted average algorithm using signal quality index.}
-        \resumeItem{Heart Rate}
-          {Improved heart rate accuracy by removing motion artifact using adaptive filter.}
-      \resumeItemListEnd
+      \resumeItem{Wear-time Detection}
+      {Designed a neural network model to accurately detect whether the device is in contact with the skin or not.}
+      \resumeItem{SpO2}
+      {Improved SpO2 accuracy using a weighted average algorithm and signal quality index.}
+      \resumeItem{Heart Rate}
+      {Improved heart rate accuracy by removing motion artifacts from the signal using adaptive filters.}
+    \resumeItemListEnd
 
     \resumeSubheading
       {Nulogix Health}{Boston, MA}
       {Machine Learning Engineer}{August 2018 - May 2019}
       \resumeItemListStart
         \resumeItem{Medical Billing Prediction}
-          {Developed an AI-based medical billing model which predicts amount of deductible, copay, and coinsurance.}
+        {Developed an AI-based medical billing model that predicts the amount of deductible, copay, and coinsurance.}
         \resumeItem{Anomaly Detection for Chest X-ray}
-          {Created a feature extraction model using convolutional autoencoder. Differentiate abnormal X-ray images using t-SNE.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Artificial Intelligence Research Institute (AIRI)}{Gyeonggi, Korea}
-      {Research Engineer}{January 2018 - July 2018}
-      \resumeItemListStart
-        \resumeItem{Image Harmonization}
-          {Developed image harmonization model using U-Net architecture.}
+        {Developed a convolutional autoencoder-based model to extract features from chest X-ray images and used t-SNE to differentiate between normal and abnormal images.}
       \resumeItemListEnd
 
     \resumeSubheading
       {Samsung Electronics}{Gyeonggi, Korea}
       {Senior Algorithm Engineer}{November 2014 - December 2017}
       \resumeItemListStart
-        \resumeItem{Body Composition Analysis}
-          {Designed body fat and skeletal muscle mass regression model using bioelectrical impedance. Integrated on TomTom Touch.}
-        \resumeItem{Sleep Stage Classification}
-          {Designed combined CNN and LSTM model with ECG RR interval and peak amplitude.}
-        \resumeItem{Motion Artifact Removal for Photoplethysmography}
-          {Developed PPG motion artifact removal algorithm using singular spectrum analysis.}
-        \resumeItem{Heart Rate and Heart Rate Variability}
-          {Developed ECG peak detection algorithm to estimate heart rate and heart rate variability. Integrated on Samsung's ECG S-Patch.}
+      \resumeItem{Body Composition Analysis}
+      {Designed a regression model using bioelectrical impedance to estimate body fat and skeletal muscle mass. Integrated this model into TomTom Touch.}
+      \resumeItem{Sleep Stage Classification}
+      {Developed a neural network model that utilizes ECG RR interval and peak amplitude to classify sleep stages.}
+      \resumeItem{Motion Artifact Removal for Photoplethysmography}
+      {Developed a PPG motion artifact removal algorithm using singular spectrum analysis.}
+      \resumeItem{Heart Rate and Heart Rate Variability}
+      {Developed an ECG peak detection algorithm to estimate heart rate and heart rate variability. Integrated this algorithm into Samsung's ECG S-Patch.}
       \resumeItemListEnd
-
+    
       \resumeSubheading
       {LG Electronics}{Seoul, Korea}
       {Research Engineer}{July 2012 - July 2014}
       \resumeItemListStart
-        \resumeItem{Ultrasound Software Beamforming}
-          {Applied software-based plane wave beamforming algorithm for ultrasound device.}
-        \resumeItem{Optical Coherence Tomography for Dermatology}
-          {Developed structural changes detection algorithm in skin aging - collagen, dermal density, and wrinkle.}
+      \resumeItem{Ultrasound Software Beamforming}{Developed a software-based plane wave beamforming algorithm for an ultrasound device.}
+      \resumeItem{Optical Coherence Tomography for Dermatology}{Developed an algorithm for detecting structural changes related to skin aging, including collagen, dermal density, and wrinkles using optical coherence tomography.}
       \resumeItemListEnd
 
       \resumeSubheading
       {Samsung Medison}{Seoul, Korea}
       {Associate Research Engineer}{June 2007 - December 2010}
       \resumeItemListStart
-        \resumeItem{ElastoScan - Freehand Elastography}
-          {Created real-time displacement and strain estimation algorithm for freehand ultrasound elastography. Developed noise removal algorithms: adaptive persistence and axial dropout correction. }
+      \resumeItem{ElastoScan - Freehand Elastography}
+      {Developed a real-time algorithm for estimating displacement and strain in freehand ultrasound elastography. Implemented noise removal algorithms including adaptive persistence and axial dropout correction.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -210,6 +207,9 @@
   %--------PATENTS------------
 \section{Patents}
 \resumeSubHeadingListStart
+\item{
+    \textbf{US 20210106238}{ Systems and methods for multivariate stroke detection}
+  }
   \item{
     \textbf{US 20180333075}{ Respiratory Rate Measuring Method and Apparatus, and Wearable Device}
   }
